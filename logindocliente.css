@@ -1,0 +1,21 @@
+ .pai{
+    display: flex;
+ }
+ /* ja cadastrado */
+.pag1{
+    padding: 10px 20px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin-right: 30px; 
+}
+#sub{
+    display: block;
+}
+        /* sem cadastro */
+.pag2{
+    padding: 10px 20px;
+    width: 400px;
+    height: 700px;
+    border: 2px solid black; 
+}

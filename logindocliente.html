@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do Cliente</title>
+    <link rel="stylesheet" href="logindocliente.css">
+</head>
+<body>
+    <h1 >Login do cliente</h1>
+    <div class="pai">
+        
+        <!-- ja cadastrado -->
+        <div class="pag1">
+            <h1>Já é cadastrado?</h1>
+            <p>Então entre com seus dados de login e senha</p>
+            <p>Seu e-mail:</p>
+            <input type="email" placeholder="Ex:teste@gmail.com">
+            <p>Seu senha:</p>
+            <input type="password">
+            <a href="" id="sub">Esqueceu sua senha?</a>
+            <button type="button" >Entrar</button>
+            <h3>Entrar com sua conta do Facebook ou Google</h3>
+            <ion-icon name="logo-google"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+        </div>
+        <!-- sem cadastro -->
+        <div class="pag2">
+            <h1>Ainda não é cadastrado no site?</h1>
+            <p>Faça agora mesmo o seu cadastro, é simples e rapido!</p>
+            <p>Seu e-mail:</p>
+            <input type="email" placeholder="Ex:teste@gmail.com">
+            <p>Seu senha:</p>
+            <input type="password">
+            <p>CPF</p>
+            <input type="number" placeholder="Ex:123.456.789-10">
+            <p>Seu Nomme:</p>
+            <input type="text" placeholder="Ex:joão">
+            <p>Data de Nascimneto:</p>
+            <input type="date">
+            <p>Sexo:</p>
+            <input type="radio" name="sexo">masculino
+            <input type="radio" name="sexo">feminino
+            <p>Telefone:</p>
+            <input type="tel" placeholder="Ex:(55)999-9999">
+            <button type="button" id="sub">Cadastrar</button>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
