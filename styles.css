@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+                    /* cabeçalio */
+#cabecalio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid black;
+    width: 1800px;
+}
+
+.logo img {
+    height: 80px;
+    width: 240px;
+}
+/* alinhamento do pesquisar */
+.search {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 20px;
+}
+/* formato do texto */
+.search input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+/* formato do botao */
+.search button {
+    padding: 6px 12px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+ /* cor muda com o mouse em cima */
+.search button:hover {
+    background-color: #0056b3;
+}
+/* carrinho e minhaconta um do lado do outro */
+.account-cart {
+    display: flex;
+}
+/* formatacao do carrinho e minhaconta */
+#account-and-cart {
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+/* cor muda com o mouse em cima */
+#account-and-cart:hover {
+    background-color: #f1f1f1;
+}
+                    /* rodape */
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 1800px;
+    height: 200px;
+    border: 2px solid black; 
+}
+#sub{
+    display: block;
+}
+                /* pagamento */
+.pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 1800px;
+    height: 200px;
+    border: 2px solid black; 
+    
+}
+.selo{
+    width: 95px;
+    height: 90px;
+}
+                /* redes social */
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 1800px;
+    height: 100px;
+    border: 2px solid black; 
+}
