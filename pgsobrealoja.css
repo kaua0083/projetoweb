@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.all{
+    padding: 10px 20px;
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+}
+.cont{
+    display: flex;
+    
+}
+#mr{
+    margin-right: 50px;
+}
+.dsv{
+    display: flex;
+    margin-right: 100px;
+}
+#img{
+    width: 120px;
+    height: 100px;
+}

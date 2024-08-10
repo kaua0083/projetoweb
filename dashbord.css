@@ -1,11 +1,6 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-}
-.all{
-width: 1500px;
 }
                     /* cabeçalio */
 #cabecalio {
@@ -16,7 +11,7 @@ width: 1500px;
     background-color: #f4f4f4;
     border-bottom: 1px solid #ddd;
     border: 2px solid black;
-    
+    width: 1800px;
 }
 
 .logo img {
@@ -69,67 +64,4 @@ width: 1500px;
 /* cor muda com o mouse em cima */
 #account-and-cart:hover {
     background-color: #f1f1f1;
-}
-                    /* categoria */
-.category{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    border: 2px solid black;
-    
-}
-                    /* propaganda */
-#advertising{
-    width: 1500px;
-    height: 150px;
-}
-                    /* produto */
-.product{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-}
-.prodform{
-    text-align: center;
-}
-#product-img{
-    width: 250px;
-    height: 200px;
-}
-                    /* rodape */
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    height: 200px;
-    border: 2px solid black; 
-}
-#sub{
-    display: block;
-}
-                /* pagamento */
-.pay{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    height: 200px;
-    border: 2px solid black; 
-    
-}
-.selo{
-    width: 95px;
-    height: 90px;
-}
-                /* redes social */
-.redes{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    height: 100px;
-    border: 2px solid black; 
 }
