@@ -11,6 +11,7 @@ body{
     height: 300px;
     border: 2px solid black;
     margin-right: 30px;
+    background-color: #f4f4f4;
 }
 .cost{
     display: flex;
@@ -39,6 +40,7 @@ body{
     height: 300px;
     border: 2px solid black;
     text-align: center;
+    background-color: #f4f4f4;
 }
 button{
     width: 200px;
