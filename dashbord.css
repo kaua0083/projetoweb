@@ -1,6 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.all{
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
                     /* cabeçalio */
 #cabecalio {
@@ -11,7 +18,6 @@ body {
     background-color: #f4f4f4;
     border-bottom: 1px solid #ddd;
     border: 2px solid black;
-    width: 1800px;
 }
 
 .logo img {
@@ -64,4 +70,40 @@ body {
 /* cor muda com o mouse em cima */
 #account-and-cart:hover {
     background-color: #f1f1f1;
+}
+.centro{
+    display: flex;
+    
+}
+        /* caixa esquerda */
+.boxleft{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-right: 30px;
+}
+    /* caixa meio */
+.alin{
+    display: flex;
+    align-items: center;
+    
+}
+#imgprod{
+    width: 70px;
+    height: 50px;
+}
+#marg{
+    margin-right: 35px;
+}
+#marg1{
+    margin-right: 250px;
+}
+#toque{
+    margin-left: 20px;
+}
+.num{
+    width: 30px;
 }

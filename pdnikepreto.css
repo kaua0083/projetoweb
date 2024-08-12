@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.all{
+    display: flex;
+    width: 1000px;
+    
+}
+#imgcen{
+    width: 549px;
+    height: 300px;
+}
+.imgpequena{
+    display: flex;
+    align-items: center;
+}
+#formtimg{
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+#marg{
+    margin-right: 20px;
+}
+.valor{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+button{
+    width: 150px;
+    height: 50px;
+}

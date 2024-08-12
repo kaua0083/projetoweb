@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="meucarrinho.css">
 </head>
 <body>
+    <div>
     <h1>Meu carrinho</h1>
     <div class="pai">
         <div class="pg1">
@@ -18,21 +19,21 @@
             </div>
             <hr color="	#000000">
             <div class="cost">
-                <img src="teste" alt="teste" id="marg">
+                <img src="imgprodutos/masc/nikepreto.png" alt="teste" id="img">
                 <input type="number" id="marg" class="form">
                 <ion-icon name="trash-bin-outline" id="marg" class="form"></ion-icon>
                 <p>R$999,99</p>
             </div>
             <hr color="	#000000">
             <div class="cost">
-                <img src="teste" alt="teste" id="marg">
+                <img src="imgprodutos/masc/airmaxazul.png" alt="teste" id="img">
                 <input type="number" id="marg" class="form">
                 <ion-icon name="trash-bin-outline" id="marg" class="form"></ion-icon>
                 <p>R$999,99</p>
             </div>
             <hr color="	#000000">
             <div class="cost">
-                <img src="teste" alt="teste" id="marg">
+                <img src="imgprodutos/masc/laranja.png" alt="teste" id="img">
                 <input type="number" id="marg" class="form">
                 <ion-icon name="trash-bin-outline" id="marg" class="form"></ion-icon>
                 <p>R$999,99</p>
@@ -40,8 +41,8 @@
         </div>
         <div class="pg2">
             <h2>Resumo do pedido</h2>
-            <div class="cost " >
-                <div>
+            <div class="cost" >
+                <div id="marg">
                     <p>subtotal</p>
                     <p>frete</p>
                 </div>
@@ -50,8 +51,16 @@
                     <p>R$999,99</p>
                 </div>
             </div>
+            <hr color="	#000000">
+            <div class="cost">
+                <h2 id="marg">Total</h2>
+                <h2>R$999,99</h2>
+            </div>
+            <button><a href="finalizarpedido.html">CONTINUAR</a></button>
+            <p>possui cupom ou vale? voce podera usa-los na etapa de pagamento.</p>
         </div>
     </div>
+</div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

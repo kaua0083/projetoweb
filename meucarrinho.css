@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    justify-content: center;
+}
 .pai{
     display: flex;
 }
@@ -6,13 +10,21 @@
     width: 700px;
     height: 300px;
     border: 2px solid black;
+    margin-right: 30px;
 }
 .cost{
     display: flex;
     align-items: center;
+    margin-right: 30px;
+    
 }
 #marg{
+    margin-right: 70px;
+}
+#img{
     margin-right: 50px;
+    width: 70px;
+    height: 50px;
 }
 #sub{
     display: block;
@@ -23,7 +35,12 @@
 }
 .pg2{
     padding: 10px 20px;
-    width: 300px;
+    width: 250px;
     height: 300px;
-    border: 2px solid black; 
+    border: 2px solid black;
+    text-align: center;
+}
+button{
+    width: 200px;
+    
 }
